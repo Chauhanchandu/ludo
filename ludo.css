@@ -1,0 +1,134 @@
+.row{
+    display: flex;
+}
+.board{
+    width: fit-content;
+    border: 4px solid #11262e;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.white-box{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 20% auto;
+    border: 1px solid black;
+}
+.red-box{
+    background-color: #ff0000;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.white-box .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 16px;
+    border: 1px solid black;
+    background-color: #ff0000;
+}
+.cell{
+    width: 40px;
+    height: 40.3px;
+    border: 1px solid black;
+
+}
+.w{
+    width: 40.3px;
+}
+.green-box{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.green-circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 16px;
+    border: 1px solid black;
+    background-color: green;
+}
+.pass{
+   border-top: 63px solid green;
+   border-right: 63px solid yellow;
+   border-bottom: 63px solid blue;
+   border-left: 63px solid red;
+}
+.yellow-box{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.yellow-circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 16px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.blue-box{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.blue-circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 16px;
+    border: 1px solid black;
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.star{
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.arrow{
+    height: 40px;
+    width: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    
+}
+.redarrow{
+    height: 20px;
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.yellowarrow{
+    height: 20px;
+    width: 35px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.bluearrow{
+    height: 35px;
+    width: 30px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
